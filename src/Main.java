@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//task1git
 public class Main {
     public static int task1(){
         int i1 = 74;
