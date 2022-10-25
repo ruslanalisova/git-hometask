@@ -1,8 +1,14 @@
 public class Lab {
-    public static void main(String[] args)
-    {
-        Computers laptop1 = new Computers("Aha", "HP", "laptop", 2048, 5);
-        Computers desktop1 = new Computers("Bhb", "HP", "desktop", 2048, 2);
+    public static void main(String[] args) {
+        Computer laptop1 = new Computer("HP", 2048);
+        laptop1.setName("Aha");
+        laptop1.setType("laptop");
+        laptop1.setNumberOfCores(5);
+        Computer desktop1 = new Computer("Dell", 2048);
+        desktop1.setName("Bhb");
+        desktop1.setType("desktop");
+        desktop1.setNumberOfCores(6);
         System.out.println(laptop1);
+        System.out.println(desktop1);
     }
 }
