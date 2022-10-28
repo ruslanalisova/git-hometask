@@ -17,5 +17,6 @@ public class Main {
 
         int result1 = task1();
         System.out.print( "Task 1 result: "+ result1);
+
     }
 }
