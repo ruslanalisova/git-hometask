@@ -11,7 +11,6 @@ public class javaAdvancedTask2 {
         }
         return listWithoutDuplicates;
     }
-
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(5, 5, 5, 5, 2, 2, 2, 1, 4, 5, 7, 8));
         System.out.println("ArrayList with duplicates: " + list);
