@@ -15,7 +15,7 @@ public class Main {
         Thread.sleep(2000);
         By searchGradleButton = By.xpath("//*[@id=\"book-search-form\"]/div[1]/input[1]");
         WebElement searchField = driver.findElement(searchGradleButton);
-        searchField.sendKeys("Little women");
+        searchField.sendKeys("g women");
         WebElement searchButton = driver.findElement(By.xpath("//*[@id=\"book-search-form\"]/div[1]/button"));
         searchButton.click();
         Thread.sleep(2000);
