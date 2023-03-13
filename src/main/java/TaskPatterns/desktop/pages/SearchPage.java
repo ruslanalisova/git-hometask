@@ -28,6 +28,5 @@ public class SearchPage extends AbstractPage {
 
     public SearchPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
     }
 }

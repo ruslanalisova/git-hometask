@@ -21,6 +21,5 @@ public class HomePage extends AbstractPage {
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
     }
 }

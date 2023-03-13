@@ -14,6 +14,5 @@ public class BasketPage extends AbstractPage {
 
     public BasketPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
     }
 }
